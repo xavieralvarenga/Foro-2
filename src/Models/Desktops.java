@@ -20,7 +20,7 @@ public class Desktops extends Equipo{
     }
 
     @Override
-    protected void verEquipos() {
+    public void verEquipos() {
 
     }
 }
