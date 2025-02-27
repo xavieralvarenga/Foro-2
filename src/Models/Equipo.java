@@ -1,5 +1,10 @@
 package Models;
 
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.util.ArrayList;
+
+// Clase Base
 public abstract class Equipo {
     protected String fabricante;
     protected String modelo;
