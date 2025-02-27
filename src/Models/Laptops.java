@@ -34,7 +34,7 @@ public class Laptops extends Equipo {
         model.addColumn("Memoria");
         model.addColumn("Disco Duro");
         model.addColumn("Pulgadas Pantalla");
-        model.addColumn("Peso");
+
 
         // Llenar la tabla con los datos
         for (Laptops laptop : arrayLaptops) {
@@ -45,7 +45,6 @@ public class Laptops extends Equipo {
                     laptop.memoria,
                     laptop.capacidadHardDisk,
                     laptop.pulgadasPantalla,
-                    laptop.peso
             });
         }
 
